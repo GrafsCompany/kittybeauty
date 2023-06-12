@@ -343,3 +343,27 @@ body {
     font-size: 26px;
     margin-left: 20px;
 }
+
+
+.servise-header {
+    background-image: url(development.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.servise-item {
+    background-color: black;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+    transition: background-color 0.3s linear;
+}
+
+.servise-item:hover {
+    background-color: crimson;
+}
